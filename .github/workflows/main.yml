@@ -4,9 +4,9 @@ env:
   kernel_repository: EndCredits/kernel_xiaomi_msm8953
   kernel_branch: fourteen
   device: tiffany
-  clang_version: r416183b
+  clang_version: r365631c
   defconfig: |
-    dipper_defconfig
+    tiffany_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
