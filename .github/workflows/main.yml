@@ -2,7 +2,7 @@ name: Check and Build
 
 env:
   kernel_repository: zlm324/android_kernel_xiaomi_msm8953_ksu
-  kernel_branch: fourteen
+  kernel_branch: fourten
   device: tiffany
   clang_version: r365631c
   defconfig: |
