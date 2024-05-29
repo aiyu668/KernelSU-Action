@@ -6,7 +6,7 @@ env:
   device: tiffany
   clang_version: r365631c
   defconfig: |
-    msm8953-perf_defconfig
+    msm8953_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
