@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: PixelExperience-Devices/kernel_xiaomi_sdm845
+  kernel_repository: windbell-project/android_kernel_xiaomi_msm8953
   kernel_branch: fourteen
-  device: dipper
-  clang_version: r487747c
+  device: tiffany
+  clang_version: r365631c
   defconfig: |
-    dipper_defconfig
+    msm8953-perf_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
