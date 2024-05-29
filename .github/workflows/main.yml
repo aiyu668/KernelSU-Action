@@ -1,12 +1,12 @@
 name: Check and Build
 
 env:
-  kernel_repository: laityts/android_kernel_xiaomi_tiffany
+  kernel_repository: EndCredits/kernel_xiaomi_msm8953
   kernel_branch: fourteen
   device: tiffany
   clang_version: r365631c
   defconfig: |
-    tiffany-perf_defconfig
+    msm8953-perf_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
