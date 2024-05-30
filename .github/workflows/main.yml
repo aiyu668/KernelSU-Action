@@ -4,9 +4,9 @@ env:
   kernel_repository: zlm324/android_kernel_xiaomi_msm8953_ksu
   kernel_branch: 
   device: tiffany
-  clang_version: r365631c
+  clang_version: r383902
   defconfig: |
-    ../msm8953-perf_defconfig
+    msm8953-perf_defconfig
   kernel_patch: |
     backport-path-umount.patch
   kernelsu_patch: |
