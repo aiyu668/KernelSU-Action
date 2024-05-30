@@ -4,7 +4,7 @@ env:
   kernel_repository: LineageOS/android_kernel_xiaomi_msm8953
   kernel_branch: lineage-17.1
   device: tiffany
-  clang_version: r365631c
+  clang_version: r353983c
   defconfig: |
     msm8953-perf_defconfig
   kernel_patch: |
